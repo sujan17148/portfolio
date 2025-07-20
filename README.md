@@ -1,19 +1,21 @@
-# Sujan's Portfolio
+# Sujan's Portfolio (Under Construction) 🚧
 
-Welcome to my personal portfolio website, built using React and Vite.
+Welcome to my personal portfolio website, built using **React** and **Vite**.
+
+---
 
 ## 🚀 Features
 
 - Clean and modern UI
-- Responsive design
+- Fully responsive design
 - Showcases projects, skills, and contact info
 
-## 🛠️ Stack
+## 🛠️ Tech Stack
 
-- React
-- Vite
-- Tailwind CSS
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Tailwind CSS
 
 ## 🌐 Live Demo
 
-[Visit My Portfolio](https://yourname.netlify.app)
+🔗 [Visit My Portfolio](https://devsujan.netlify.app/)
