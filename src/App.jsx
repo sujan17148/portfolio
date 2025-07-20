@@ -1,23 +1,6 @@
-import { Route,Routes, useParams } from "react-router-dom";
-import Header from "./Components/Header/Header";
-import About from "./Pages/About"
-import Home from "./Pages/Home"
-import Projects from "./Pages/Projects"
-import Contact from "./Pages/Contact"
-import Footer from "./Components/Footer/Footer";
-import Details from "./Pages/Details";
-
 export default function App(){
-  
-  return <>
-  <Header/>
-<Routes>
-  <Route path="/" element={<Home/>}/>
-  <Route path="/about" element={<About/>}/>
-  <Route path="/projects" element={<Projects/>}/>
-  <Route path="/contact" element={<Contact/>}/>
-  {/* <Route path="/details:id" element={<Details/>}/> just for params and uselocation that it */}
-</Routes>
-<Footer/>
-  </>
+  return <div className="font-bold text-white bg-black min-h-[100dvh] flex text-center justify-center items-center text-4xl flex-col">
+    <h1>Welcome to my portfolio</h1>
+    <h1>comming soon</h1>
+  </div>
 }
