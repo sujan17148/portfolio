@@ -1,1 +1,31 @@
 @import "tailwindcss";
+html{
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+html,body{
+    overflow-x: hidden;
+}
+
+@theme{
+    --color-light-primary:#FFF8F0;
+    --color-light-secondary:#4B3F2F;
+    --color-light-accent:#F4A261;
+}
+.custom-toast{
+    @apply max-w-[90%] m-1;
+}
+
+.profile-pic::before{
+    content: "";
+    @apply  absolute top-1/2 left-1/2 -translate-1/2 h-22 w-22 bg-light-accent rounded-full z-1;
+}
+.profile-pic::after{
+    content: "";
+    animation-duration: 2.5s !important;
+    @apply  absolute top-1/2 left-1/2 -translate-1/2 h-24 bg-white w-[84px] rounded-full  animate-spin z-1;
+}
