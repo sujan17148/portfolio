@@ -13,10 +13,10 @@ export default function Footer(){
                 Let's create something great together.
               </p>
               <div className="links flex gap-5">
-            <a className="hover:text-light-accent text-xl" href="https://github.com/sujan17148"> <FiGithub /></a>
-            <a className="hover:text-light-accent text-xl" href="https://www.linkedin.com/in/sujan-sah-01109226a/"> <FiLinkedin /></a>
-            <a className="hover:text-light-accent text-xl" href="https://x.com/Suzan6225667317"> <FiTwitter /></a>
-            <a className="hover:text-light-accent text-xl" href="mailto:sujansah.dev@gmail.com"> <FiMail /></a>
+            <a className="hover:text-light-accent text-xl" target="_blank" href="https://github.com/sujan17148"> <FiGithub /></a>
+            <a className="hover:text-light-accent text-xl" target="_blank" href="https://www.linkedin.com/in/sujan-sah-01109226a/"> <FiLinkedin /></a>
+            <a className="hover:text-light-accent text-xl" target="_blank" href="https://x.com/Suzan6225667317"> <FiTwitter /></a>
+            <a className="hover:text-light-accent text-xl"  href="mailto:sujansah.dev@gmail.com"> <FiMail /></a>
             </div>
             </div>
             

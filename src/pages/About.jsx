@@ -28,6 +28,7 @@ export default function About() {
             <a
               className="hover:text-light-accent text-xl"
               href="https://github.com/sujan17148"
+              target="_blank"
             >
               {" "}
               <FiGithub />
@@ -35,6 +36,7 @@ export default function About() {
             <a
               className="hover:text-light-accent text-xl"
               href="https://www.linkedin.com/in/sujan-sah-01109226a/"
+                target="_blank"
             >
               {" "}
               <FiLinkedin />
@@ -42,6 +44,7 @@ export default function About() {
             <a
               className="hover:text-light-accent text-xl"
               href="https://x.com/Suzan6225667317"
+                target="_blank"
             >
               {" "}
               <FiTwitter />
@@ -106,8 +109,8 @@ function TechStack() {
   const skills = [
     { name: "HTML", icon: FaHtml5, color: "#E34C26" },
     { name: "CSS", icon: IoLogoCss3, color: "#1572B6" },
-    {name: "JavaScript",icon: DiJavascript1,color: "#F7DF1E"},
-    {name: "Tailwind",icon: RiTailwindCssFill,color: "#38BDF8"},
+    { name: "JavaScript", icon: DiJavascript1, color: "#F7DF1E" },
+    { name: "Tailwind", icon: RiTailwindCssFill, color: "#38BDF8" },
     { name: "React", icon: FaReact, color: "#61DAFB" },
     { name: "Git", icon: IoIosGitMerge, color: "#F05032" },
     { name: "Appwrite", icon: SiAppwrite, color: "#F02E65" },
