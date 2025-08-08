@@ -24,9 +24,9 @@ export default function Home() {
           </a>
         </div>
         <div className="links flex gap-5">
-            <a className="hover:text-light-accent" href="https://github.com/sujan17148"> <FiGithub className="text-3xl"/></a>
-            <a className="hover:text-light-accent" href="https://www.linkedin.com/in/sujan-sah-01109226a/"> <FiLinkedin className="text-3xl"/></a>
-            <a className="hover:text-light-accent" href="https://x.com/Suzan6225667317"> <FiTwitter className="text-3xl"/></a>
+            <a className="hover:text-light-accent" target="_blank" href="https://github.com/sujan17148"> <FiGithub className="text-3xl"/></a>
+            <a className="hover:text-light-accent" target="_blank" href="https://www.linkedin.com/in/sujan-sah-01109226a/"> <FiLinkedin className="text-3xl"/></a>
+            <a className="hover:text-light-accent" target="_blank" href="https://x.com/Suzan6225667317"> <FiTwitter className="text-3xl"/></a>
             <a className="hover:text-light-accent" href="mailto:sujansah.dev@gmail.com"> <FiMail className="text-3xl"/></a>
         </div>
     </div>
