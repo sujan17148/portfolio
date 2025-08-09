@@ -1,10 +1,23 @@
+import chatAppImage from "./assets/chat-app.png"
 import blogAppImage from "./assets/blog-app.png"
 import ecommerceAppImage from "./assets/ecommece.png";
 import animeAppImage from "./assets/anime-site.jpg"
 import recipeAppImage from "./assets/recipe-app.jpg"
 export const projects = [
+  
   {
     id: 1,
+    image: chatAppImage,
+    title: "VibeChat",
+    description:
+      "A full-stack chat application built with React and Appwrite, featuring real-time messaging, secure authentication, and user profile management.",
+    tags: ["React", "Appwrite", "react-forms", "Redux","Tailwind"],
+    githubLink: "https://github.com/sujan17148/vibeChat",
+    liveDemoLink: "https://appwritevibechat.netlify.app/",
+  },
+
+  {
+    id: 2,
     image: blogAppImage,
     title: "Blog App",
     description:
@@ -14,7 +27,7 @@ export const projects = [
     liveDemoLink: "https://appwriteblogspace.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: ecommerceAppImage,
     title: "Ecommerce App",
     description:
@@ -24,7 +37,7 @@ export const projects = [
     liveDemoLink: "https://shopcraft-store.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: animeAppImage,
     title: "Anime App",
     description:
@@ -35,7 +48,7 @@ export const projects = [
     liveDemoLink: null,
   },
   {
-    id: 4,
+    id: 5,
     image: recipeAppImage,
     title: "Recipe App",
     description:
